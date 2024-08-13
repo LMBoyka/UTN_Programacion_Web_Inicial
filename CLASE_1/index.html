@@ -1,26 +1,131 @@
+</html>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8"> <!-- configuracion de ccodificacion de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mi primera chamba</title>
+    <meta name="description" content="aca es la descripcion de la pagina">
+    <!-- ( seria la descripcion que aparece en google cuando buscas algo) -->
+</head>
+
+<body>
+    <h5>Name</h5>
+    <label for="first-name"></label>
+    <input type="text" name="first-name" id="first-name" placeholder="first name">
+    <label for="last-name"></label>
+    <input type="text"name="last-name" id="last-name" placeholder="last name">
+    <br>
+    <h5>Email</h5>
+    <label for="email"></label>
+    <input type="email" name="email" id="email" placeholder="sample@example.com">
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>Formulario</h1>
+    <form> <!-- en el trabajo final el label es importante -->
+        <!-- siempre cuando los input te niene con el atributo name es importante para conectarlo con JavaScript -->
+        <label for="pingo">ingrese su nombre</label><!-- form es importante, cuando le pones valor al form tenes que conectar el label con el in put con id nombre, label ayuda a las personas con discapacidad  por ejemplo con las que no pueden ver  si no tenemos el label no pueden escuchar,las paginas gobermnamentales si os si tiene que tener ademas google te puntea mal la pagina  -->
+        <input type="text" name="" id="pingo">
+        <input type="password" title="wacho no sabes leer">
+        <br>
+        <input type="number" minlength="10" maxlength="30" placeholder="cornudo">
+        <input type="email" value="pone el mail" required><!-- required es que si o si se necesita -->
+        <input type="submit" value="iniciar sesion">
+        <br>
+        <label for="comentario">ingrese su comentario</label>
+        <textarea name="comentario" id="comentario"></textarea>
+        <br>
+        <input type="file">
+        <input type="datetime-local"><!-- datetime solo esta deprecado no se usa mas en html osea existe pero no se recomienda -->
+        <input type="date">
+        <br>
+        <span>selecciona  tu lenguaje</span>
+
+        <label for="html">html</label>
+        <input type="radio" id="html" name="seleccionar"><!-- es un circulito -->
+        <label for="css">css</label>
+        <input type="radio" id="css" name="seleccionar"> <!-- name es para que puedas seleccionar uno en vez de dos pero todos los input radio tienen que tener el mismo name -->
+        
+        <br>
+        <span>selecciona  tu lenguaje</span>
+
+        <label for="html-conocido">html</label>
+        <input type="checkbox" id="html-conocido" name="son dos">
+        <label for="css-conocido">css</label>
+        <input type= "checkbox" id="css-conocido" name="son dos">        
+        <br>
+        <label for="pais">seleccionar un pais</label>
+        <select name="pais" id="pais">
+            <option value="">ARGENTINA</option><!-- Value va a mandar al backend si ponemos argentina manda eso o AR pero el valor llega al servidor -->
+            <option value="">francia</option>
+            <option value="" >brasil</option><!-- empieza con brasil ese aparece como primero en la pagina -->
+            <option value="" selected disabled>no seleccionado</option><!-- diseable no va a dejar que aparezca no seleccionado -->
+        </select>
+
+
+
+    </form><!-- Formulario buscar,ingresar datos, llenar formularios -->
+
+
+
+    <!--viewport el contenedor de lo que el usuario vera -->
+    <h1>MERCA <span> LIBRE</span></h1>
+    <p>aguante <span style="color: blueviolet;"> talleres</span> </p>
+    <div>aguante talleres</div>
+    <p>Este es un <span style="color: red;">texto destacado</span>.</p>
+    <div class="contenedor">putos</div>
+    <div class="testimonios">
+        <p>Excelente servicio. ¡Los recomiendo!</p>
+        <p>Los productos son de alta calidad.</p>
+        <p>aguante gim</p>
+        <p>puto el que lee</p>
+        <a href="#ir abajo">voy abajo</a>
+    </div>
+    <span>texto generico</span> <!-- span texto generico -->
+    <a href="" target="_blank"> ir a mercado libre</a>
+    <!-- ancla me va a redireccionar al link, como puedo hacer para que haba en otra pág lo hago con este atributo  -->
+    <!-- ir a WTF.HTML --> <a href="./paginas/wtf.html" target="_blank">entra
+        aca</a><!-- aca le indico a donde me quiero mover en la carpetaSIEMPRE usar ./ -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ab corrupti aspernatur eos autem exercitationem
+        aperiam tempore! Officiis qui pariatur, eos id est ad quisquam laboriosam hic officia exercitationem excepturi!
+        Illum, necessitatibus? Iure asperiores minima ipsam ratione beatae sunt sit dignissimos obcaecati excepturi
+        optio! Nihil laboriosam voluptatibus fugiat eligendi provident temporibus, voluptates, consequuntur illum
+        facilis eaque autem rerum ea placeat?
+        A voluptatem pariatur minus doloremque aut soluta error alias autem mollitia neque quis officiis laborum unde
+        molestiae cumque fugiat ex consectetur dolorum expedita dolor magni est omnis, quod at. Provident.
+        Eaque ipsam blanditiis sit cumque aut possimus culpa temporibus eius, rerum minima, perferendis nisi laudantium
+        deleniti numquam error laborum doloremque porro assumenda dignissimos unde nemo ipsum? A tempora veritatis at.
+        Veniam inventore officiis fugiat debitis dolor veritatis natus ea dicta atque neque quibusdam fuga mollitia in
+        consequuntur, corporis similique. Eum unde soluta culpa eveniet facilis placeat ipsa delectus! Debitis,
+        consequatur.
+        Sint dolore possimus eos blanditiis? Nam quam, error quae possimus eveniet, perferendis odit architecto
+        consequuntur officiis enim, molestias porro temporibus! Illum mollitia quam esse, cupiditate quo ratione
+        necessitatibus explicabo optio.
+        Libero aut fugit vero provident rerum modi iure neque ullam, itaque voluptates quae dignissimos sapiente rem
+        alias ab facere, obcaecati natus ipsam consequatur, veritatis deserunt nesciunt ipsum. Eveniet, aspernatur
+        aliquam.
+        Exercitationem incidunt dicta, ut modi beatae unde necessitatibus amet? Laboriosam eaque consequuntur, eos totam
+        earum itaque voluptas veritatis ab, dolores repellat deserunt porro. Officiis quas illum natus debitis, aliquid
+        voluptates?
+        Perferendis, animi labore quas obcaecati nihil molestias, reiciendis dignissimos ducimus voluptates earum quos
+        inventore natus accusantium nobis reprehenderit ullam cupiditate, enim qui quis nostrum quam nisi ratione.
+        Soluta, quisquam rem.
+        Vero excepturi velit ratione minima, maiores assumenda dolorem ea dicta inventore, obcaecati architecto nam
+        recusandae consequuntur praesentium nobis? Non quos ipsa, quas sit at eveniet sunt modi quasi voluptates
+        
+    </p>
+
+    <h1 id="ir abajo"> <!-- es un id para que me puedo mover desde otra pagina  -->
+        aca abajo
+    </h1>
+
+
+</body>
 
 </html>
-    <!DOCTYPE html>
-    <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>mi primera chamba</title>
-        <meta name="description" content="aca es la descripcion de la pagina">
-        <!-- ( seria la descripcion que aparece en google cuando buscas algo) -->
-    </head>
-    <body>
-        <p>aguante <span style="color: blueviolet;"> talleres</span> </p>
-        <div>aguante talleres</div>
-        <p>Este es un <span style="color: red;">texto destacado</span>.</p>
-        <div class="contenedor">putos</div>
-        <div class="testimonios">
-            <p>Excelente servicio. ¡Los recomiendo!</p>
-            <p>Los productos son de alta calidad.</p>
-            <p>aguante gim</p>
-            <p>puto el que lee</p>
-          </div>
-
-        
-    </body>
-    </html>

@@ -1,4 +1,6 @@
 ALT + SHIFT + A = COMENTARIO
+Control + K + C
+ALT + Z = hace un salto de linia cuando escribis un parrafo y se va hasta el pingo bueno eso lo normaliza
 
 ### HTML : 
 El lenguaje en el que se escribe la estructura de la web
@@ -50,17 +52,14 @@ Required es un atributo  que no requiere valor, no todos los atributos tiene que
 
 meta datos: podemos configurar idiomas la tipografia
 
-</html>
-    <!DOCTYPE html>
-    <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>mi primera chamba</title>
-        <meta name="description" content="aca es la descripcion de la pagina">
-        ( seria la descripcion que aparece en google cuando buscas algo)
-    </head>
-    <body>
-        
-    </body>
-    </html>
+### clase 3
+<!-- Esto se llama anidamiento/ mesting-->
+<padre> <hijo> <nieto></nieto> </hijo> </padre>
+<autocierr/>
+<!-- identacion / identation -->
+<padre>
+    <hijo> 
+        <nieto></nieto> 
+    </hijo> 
+    <hermano></hermano>
+</padre>
